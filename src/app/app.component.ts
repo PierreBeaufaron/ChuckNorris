@@ -19,9 +19,9 @@ export class AppComponent implements OnInit{
 
     // Gestion de l'API
     if (this.APP_ENV == "DEV") {
-      this.API_URL = "http://localhost:8080/api";
+      this.API_URL = "https://api.chucknorris.io/jokes/";
     } else if (this.APP_ENV == "PROD") {
-      this.API_URL = "http://localhost:8080/api";
+      this.API_URL = "https://api.chucknorris.io/jokes/";
     } else {
       this.API_URL = "http://localhost:8080/api";
     }
